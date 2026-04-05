@@ -13,3 +13,19 @@ print(maxi_water)
 
 # Two pointer approach 
 
+i = 0  
+j = len(height) -1 
+ans = 0 
+ans_water = 0
+while(i<j) : 
+    w = j-i 
+    h = min(height[i] , height[j])  
+    ans = w*h 
+    ans_water = max(ans_water , ans) 
+
+    if height[i]<height[j] : 
+        i = i+1 
+    else  : 
+        j = j-1
+    
+print(ans_water)

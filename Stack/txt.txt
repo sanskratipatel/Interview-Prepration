@@ -1,0 +1,15 @@
+Valid Parentheses
+Min Stack
+Next Greater Element
+Daily Temperatures
+Largest Rectangle in Histogram
+Decode String
+Simplify Path
+Stock Span Problem
+Implement Queue using Stack
+Sliding Window Maximum
+First Negative Number in Every Window
+Rotten Oranges
+Evaluate Reverse Polish Notation
+Basic Calculator
+Task Scheduler

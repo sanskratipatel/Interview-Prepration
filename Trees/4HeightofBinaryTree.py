@@ -60,12 +60,19 @@ def againg(node) :
 
 
       
+# def height_2 (node) :
+#     if node is None :
+#         return 
+#     left = height_2(node.left) 
+#     right = height_2(node.right) 
+
+#     return 1 + max(left, right)  
 
 
-def height_2 (node) :
-    if node is None :
+
+def height2(node) : 
+    if node is None : 
         return 
-    left = height_2(node.left) 
-    right = height_2(node.right) 
-
-    return 1 + max(left, right)
+    left = height2(node.left)  
+    right = height2(node.right) 
+    return 1+ (max(left,right))

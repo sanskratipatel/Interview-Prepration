@@ -252,4 +252,11 @@ Letter Combinations Phone Number
 Kth Largest Element
 Top K Frequent
 K Closest Points
-Last Stone Weight
+Last Stone Weight 
+
+Bubble Sort
+Selection Sort
+Insertion Sort
+Merge Sort
+Quick Sort
+Heap Sort (conceptual)

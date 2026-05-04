@@ -1,6 +1,5 @@
 def subsets(arr=[] , ans =[] , i=0) : 
     if i == len(arr): 
-        
         print(ans) 
         return 
     ans.append(arr[i]) 

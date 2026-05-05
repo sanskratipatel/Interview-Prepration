@@ -41,6 +41,26 @@ class LinkedList:
 
             prev.next =new_node 
             new_node.next = curr 
+    def delete(self,pos) : 
+        temp = self.head 
+        if temp.val is not None : 
+            self.head = temp.next 
+            del temp 
+        else :
+            found = False 
+            prev = None 
+            while(temp is not None) :
+                if temp.val == pos :
+                    found = True  
+                    break 
+                prev = temp 
+                temp = temp.next 
+            
+            if found : 
+                prev.next = temp.next  
+                del temp 
+            else:
+                print("Node Not found")
 
 
 

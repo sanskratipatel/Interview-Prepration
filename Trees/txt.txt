@@ -12,4 +12,15 @@ Delete Node in BST
 Vertical Order Traversal
 Serialize Deserialize Tree
 Construct Tree from Traversals
-Flatten Binary Tree
+Flatten Binary Tree 
+
+
+| 37 | Inorder / Preorder / Postorder Traversal | Recursion / Iterative | Easy |
+| 38 | Maximum Depth of Binary Tree | DFS | Easy |
+| 39 | Same Tree | DFS comparison | Easy |
+| 40 | Invert Binary Tree | DFS / BFS | Easy |
+| 41 | Level Order Traversal | BFS (deque) | Medium |
+| 42 | Validate Binary Search Tree | Inorder + min/max bounds | Medium |
+| 43 | Lowest Common Ancestor of BST | BST property | Easy |
+| 44 | Binary Tree Right Side View | BFS last node per level | Medium |
+| 45 | Count Good Nodes in Binary Tree | DFS with max_so_far | Medium |

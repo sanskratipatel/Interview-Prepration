@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sanskrati Patel - Resume</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            line-height: 1.4;
+            color: #333;
+            margin: 0;
+            padding: 30px;
+            background-color: #fff;
+        }
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #333;
+            padding-bottom: 12px;
+            margin-bottom: 16px;
+        }
+        .name {
+            font-size: 26px;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+            margin: 0 0 4px 0;
+            color: #111;
+        }
+        .title-bar {
+            font-size: 13px;
+            font-weight: 600;
+            color: #555;
+            margin-bottom: 6px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .links-contact {
+            font-size: 12px;
+            color: #444;
+        }
+        .links-contact a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+        .links-contact a:hover {
+            text-decoration: underline;
+        }
+        .separator {
+            color: #ccc;
+            margin: 0 6px;
+        }
+        .section {
+            margin-bottom: 16px;
+        }
+        .section-title {
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 3px;
+            margin: 0 0 8px 0;
+            color: #222;
+        }
+        .skills-grid {
+            font-size: 12.5px;
+            line-height: 1.5;
+        }
+        .skills-item {
+            margin-bottom: 4px;
+        }
+        .skills-category {
+            font-weight: bold;
+            color: #444;
+            display: inline-block;
+            width: 170px;
+        }
+        
+        /* Elements prevented from splitting half-way on page breaks */
+        .job, .project {
+            margin-bottom: 12px;
+            page-break-inside: avoid;
+            break-inside: avoid;
+        }
+        .job:last-child, .project:last-child {
+            margin-bottom: 0;
+        }
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 3px;
+        }
+        .item-title {
+            font-size: 13.5px;
+            font-weight: bold;
+            color: #111;
+        }
+        .item-meta {
+            font-size: 12px;
+            color: #555;
+            font-style: italic;
+        }
+        .item-tech {
+            font-size: 12px;
+            font-weight: 600;
+            color: #555;
+            margin-top: -2px;
+            margin-bottom: 4px;
+        }
+        ul {
+            margin: 0;
+            padding-left: 18px;
+        }
+        li {
+            font-size: 12.5px;
+            margin-bottom: 3px;
+            color: #333;
+            text-align: justify;
+            page-break-inside: avoid;
+            break-inside: avoid;
+        }
+        li:last-child {
+            margin-bottom: 0;
+        }
+        
+        @media print {
+            body {
+                padding: 0;
+                font-size: 12px;
+            }
+            .name { font-size: 24px; }
+            .section { margin-bottom: 12px; }
+            
+            /* Strict browser-level formatting instruction for printing */
+            .job, .project, li {
+                page-break-inside: avoid !important;
+                break-inside: avoid !important;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="name">SANSKRATI PATEL</div>
+        <div class="title-bar">Backend Developer | Open to Work Anywhere</div>
+        <div class="links-contact">
+            <span>+91-9329496348</span>
+            <span class="separator">|</span>
+            <span><a href="mailto:patelsanskrati12@gmail.com">patelsanskrati12@gmail.com</a></span>
+            <span class="separator">|</span>
+            <span><a href="https://www.linkedin.com/in/sanskrati-patel-b2464b223/" target="_blank">LinkedIn</a></span>
+            <span class="separator">|</span>
+            <span><a href="https://github.com/sanskratipatel" target="_blank">GitHub</a></span>
+            <span class="separator">|</span>
+            <span><a href="https://sanskrati-portfolio.onrender.com/" target="_blank">Portfolio</a></span>
+            <span class="separator">|</span>
+            <span><a href="https://www.hackerrank.com/profile/patelabhilasha15" target="_blank">HackerRank</a></span>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Technical Skills</div>
+        <div class="skills-grid">
+            <div class="skills-item"><span class="skills-category">Languages:</span> Python, SQL, C++ </div>
+            <div class="skills-item"><span class="skills-category">Backend:</span> Django, Django REST Framework (DRF), FastAPI, REST APIs, Pydantic, Celery, Async Programming </div>
+            <div class="skills-item"><span class="skills-category">Databases & Caching:</span> PostgreSQL, MySQL, MongoDB, Redis, pgvector</div>
+            <div class="skills-item"><span class="skills-category">Authentication:</span> JWT, OAuth2, RBAC, Bitmask Permissions, Whitelist/Blacklist APIs</div>
+            <div class="skills-item"><span class="skills-category">Real-Time & Messaging:</span> WebSocket, Socket.IO, RabbitMQ, Firebase Cloud Messaging</div>
+            <div class="skills-item"><span class="skills-category">AI / GenAI:</span> LangChain, Anthropic Claude API, RAG Pipelines, OpenAI Embeddings, Semantic Search </div>
+            <div class="skills-item"><span class="skills-category">DevOps & Tools:</span>Git, Linux, Postman, Swagger/OpenAPI, Render</div>
+            <div class="skills-item"><span class="skills-category">Integrations:</span> Zoho Books, Zoho CRM, Shiprocket, Delhivery</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Professional Experience</div>
+        
+        <div class="job">
+            <div class="item-header">
+                <span class="item-title">Backend Software Engineer — Katyayani Organics, Bhopal</span>
+                <span class="item-meta">Apr 2025 – Present</span>
+            </div>
+            <ul>
+                <li>Built and deployed 8+ production backend modules for a warehouse management platform processing 5,000+ daily orders and supporting 100+ active users.</li>
+                <li>Reduced order-to-delivery turnaround time from 7 days to 2 days by automating booking, invoicing, picklist generation, dispatch, and warehouse workflows.</li>
+                <li>Improved API response time by 75% (2s → 500ms) through async processing, PostgreSQL query optimization, Redis caching, indexing, and elimination of N+1 queries.</li>
+                <li>Architected secure RBAC and JWT-based authentication system with granular multi-role permission management, module-level isolation, and protected access control for enterprise workflows.</li>
+                <li>Designed and developed critical warehouse systems including SKU substitution flow, procurement pipeline, approval workflows, RTO inward handling, automated invoicing, booking automation, and bin allocation.</li>
+                 <li>Collaborated with BA teams on data cleaning, validation, and workflow optimization to improve operational accuracy and reporting quality.</li>
+                <li>Built production-grade GenAI RAG pipeline using LangChain, Anthropic Claude API, OpenAI embeddings, and pgvector semantic search for natural-language warehouse queries inside Django backend.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="item-header">
+                <span class="item-title">Backend Developer Intern — Katyayani Organics, Bhopal</span>
+                <span class="item-meta">Oct 2024 – Mar 2025</span>
+            </div>
+            <ul>
+                <li>Developed production REST APIs using FastAPI and Django REST Framework for inventory management, warehouse coordination, and order lifecycle operations.</li>
+                <li>Designed PostgreSQL schemas, managed migrations, and wrote optimized ORM queries for high-volume production workflows.</li>
+                <li>Diagnosed and resolved backend bottlenecks including N+1 issues and slow ORM queries, improving API reliability and system performance.</li>
+                <li>Worked closely with warehouse and operations teams to translate logistics workflows into scalable backend services.</li>
+                <li>Earned full-time Backend Software Engineer opportunity based on strong ownership, production impact, and backend contribution.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="item-header">
+                <span class="item-title">Web Development Intern — VeriTech Software IT Services</span>
+                <span class="item-meta">May 2024 – Jun 2024</span>
+            </div>
+            <ul>
+            <li>Developed client-facing web features and integrated REST APIs while working in agile development workflows.</li>
+            <li>Validated and sanitized user input data to ensure data integrity and improve application reliability.</li>
+            <li>Tested and validated end-to-end RESTful API endpoints and response payloads using Postman.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Projects</div>
+
+        <div class="project">
+            <div class="item-header">
+                <span class="item-title">TrackPack — Warehouse Order Processing & Logistics Automation</span>
+            </div>
+            <div class="item-tech">Django · DRF · FastAPI · PostgreSQL · Redis · Socket.IO · JWT · RBAC</div>
+            <ul>
+                <li>Architected scalable backend system handling 1,000+ daily warehouse and logistics orders with automated order lifecycle, dispatch, and inventory coordination.</li>
+                <li>Built picklist generation, picking workflows, bin allocation, partial-pick handling, dispatch management, and cross-team warehouse coordination systems.</li>
+                <li>Developed automated courier booking and dispatch workflows integrated with Shiprocket and multi-courier logistics systems.</li>
+                <li>Implemented automated invoicing pipeline integrated with Zoho Books including tax calculation, invoice generation, PDF workflows, and dispatch automation.</li>
+                <li>Optimized high-throughput operations using indexed PostgreSQL queries, Redis caching, async processing, and scalable REST API architecture.</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <div class="item-header">
+                <span class="item-title">Procurement Hub — Procurement & Vendor Management System</span>
+            </div>
+            <div class="item-tech">Django · PostgreSQL · REST APIs · Zoho Books · Python</div>
+            <ul>
+                <li>Built end-to-end procurement workflow covering vendor management, quotation handling, indent workflow, quotation comparison, purchase approvals, and goods inward operations.</li>
+                <li>Developed admin approval portal for procurement operations with role-based access control and approval workflow automation.</li>
+                <li>Implemented quotation-to-purchase-order pipeline with automated PO generation and seamless Zoho Books synchronization for vendors and purchase orders.</li>
+                <li>Designed real-time inventory inward flow syncing received goods directly into TrackPack warehouse inventory system.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Achievements & Certifications</div>
+        <ul>
+            <li><strong>AI Agentic Hackathon Certificate:</strong> Secured official certification for participating and building advanced AI capabilities in the Ksolves Hackathon (<a href="https://drive.google.com/file/d/1Dwf5kSQoCXMiflKZOuZXImZtLWI7f1S9/view?usp=sharing" target="_blank">View Certificate Link</a>).</li>
+            <li>Solved 150+ Data Structures and Algorithms (DSA) problems on GeeksforGeeks (GFG), focusing on optimized problem-solving and clean backend logic.</li>
+            <li>Built and deployed production-grade backend systems utilized in live, high-throughput warehouse and logistics operations.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Education</div>
+        <div class="job">
+            <div class="item-header">
+                <span class="item-title">B.Tech in Information Technology — Indira Gandhi Engineering College</span>
+                <span class="item-meta">CGPA: 7.81 | 2020 – 2024</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

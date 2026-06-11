@@ -1,0 +1,11 @@
+temp =root 
+floor = -1 
+while temp is not None : 
+    if temp.data == k :
+        return k 
+    elif temp.data > k : 
+        temp = temp.left 
+    else : 
+        floor = temp.data 
+        temp = temp.right 
+return floor 

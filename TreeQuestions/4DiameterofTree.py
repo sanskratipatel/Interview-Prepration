@@ -6,7 +6,7 @@ def diameter_of_tree(node) :
         
         left_h = solve(nod.left , dia) 
         right_h = solve(node.right, dia)  
-        dai = max(dia , left_h + right_h) 
+        dia = max(dia , left_h + right_h) 
         return 1 + max(left_h , right_h) 
     return dia
 
